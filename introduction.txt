@@ -1,0 +1,17 @@
+Observables: 
+    - The observables are like data/event generators with some logic stored inside
+    - the data they generate can have various sources like ann array values, DOM events, Http requests, timers, 
+        actually anything you want, can be converted into an observable
+    - now we need to execute it somehow, so it starts generating the data
+    - to run the code placed inside of an observable, we need to subscribe to it
+
+what we can do with the data emitted by the observables
+    - in most cases you will want to consume the data emitted by an observable and run a logic that you would like to run for each emitted value
+    and if something goes wrong you can provide some error handling logic 
+    
+
+In simple words, Observables are like functions, which generate some values once we subscribe to them
+
+An observable is like a function which we can execute and which then runs its logic and can return multiple values at various points of time
+
+recommendation: add $ at the end of the name of observable like --> name$
